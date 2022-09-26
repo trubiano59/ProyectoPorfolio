@@ -7,11 +7,10 @@ import { LogoApComponent } from './logo-ap/logo-ap.component';
 
 @NgModule({
   declarations: [
-   
-  
     HeaderComponent,
-           LogoApComponent
+    LogoApComponent,
   ],
+  
   imports: [
     CommonModule
   ],
