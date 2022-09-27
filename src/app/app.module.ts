@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { LogoComponent } from './components/logo/logo.component';
+import { RedessocialesComponent } from './components/redessociales/redessociales.component';
 
 
 
@@ -11,7 +13,9 @@ import { HeaderComponent } from './components/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    LogoComponent,
+    RedessocialesComponent
    
   ],
   imports: [
