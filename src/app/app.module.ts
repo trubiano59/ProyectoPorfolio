@@ -7,6 +7,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { RedessocialesComponent } from './components/redessociales/redessociales.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { AcercademiComponent } from './components/acercademi/acercademi.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { LoginComponent } from './components/login/login.component';
+import { IndexComponent } from './components/index/index.component';
 
 
 
@@ -17,7 +21,11 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     LogoComponent,
     RedessocialesComponent,
-    BannerComponent
+    BannerComponent,
+    AcercademiComponent,
+    NavbarComponent,
+    LoginComponent,
+    IndexComponent
    
   ],
   imports: [
