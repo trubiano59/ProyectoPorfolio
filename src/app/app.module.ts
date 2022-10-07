@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { RedessocialesComponent } from './components/redessociales/redessociales.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 
 
@@ -15,7 +16,8 @@ import { RedessocialesComponent } from './components/redessociales/redessociales
     AppComponent,
     HeaderComponent,
     LogoComponent,
-    RedessocialesComponent
+    RedessocialesComponent,
+    BannerComponent
    
   ],
   imports: [
