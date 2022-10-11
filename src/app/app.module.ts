@@ -1,16 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { LogoComponent } from './components/logo/logo.component';
-import { RedessocialesComponent } from './components/redessociales/redessociales.component';
-import { BannerComponent } from './components/banner/banner.component';
-import { AcercademiComponent } from './components/acercademi/acercademi.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { LoginComponent } from './components/login/login.component';
-import { IndexComponent } from './components/index/index.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './modals/login/login.component';
+import { RedesComponent } from './redes/redes.component';
+import { BannerComponent } from './banner/banner.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { InterestsComponent } from './interests/interests.component';
+import { AwardsComponent } from './awards/awards.component';
+import { WorkComponent } from './work/work.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { AppRoutingModule } from './app-routing.module';
+
+import { IndexComponent } from './index/index.component';
+
+import { MainComponent } from './main/main.component';
+import { AcercademiComponent } from './acercademi/acercademi.component';
+import { ErrorComponent } from './error/error.component';
+
+
 
 
 
@@ -18,22 +28,32 @@ import { IndexComponent } from './components/index/index.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    LogoComponent,
-    RedessocialesComponent,
-    BannerComponent,
-    AcercademiComponent,
     NavbarComponent,
     LoginComponent,
-    IndexComponent
+    RedesComponent,
+    BannerComponent,
+    IndexComponent,
+    ExperienceComponent,
+    EducationComponent,
+    SkillsComponent,
+    InterestsComponent,
+    AwardsComponent,
+    WorkComponent,
+    ProyectosComponent,
+    
+    ErrorComponent,
    
+   
+    MainComponent,
+    AcercademiComponent,
+
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
 
- ],
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
